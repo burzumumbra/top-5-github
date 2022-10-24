@@ -7,11 +7,7 @@ const Home = () => {
   const navigation = useNavigation();
 
   const users = [ 
-    'burzumumbra',
-    'tannerlinsley',
-    'developit',
-    'wesbos',
-    'AdamSiekierski',
+    "GrahamCampbell","fabpot","weierophinney","rkh","josh"
   ];
 
   const navigateTo = (user) => { 

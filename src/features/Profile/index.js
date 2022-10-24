@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import { NativeBaseProvider, Avatar, Box, HStack, VStack, Text, Image, Divider } from "native-base";
 import useSWR from 'swr';
-import { fetchUser, ProfileFetch } from '../../api/helpers';
 import { API_URL } from "../../api/constants";
 
 const fetcher = (url) => fetch(url).then((res) => res.json());

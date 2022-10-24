@@ -19,12 +19,12 @@ const Profile = ({route, navigation}) => {
   
   return (
     <NativeBaseProvider>
-    {data && (
+    {profile && (
       <Box  p={2}>
         <HStack p={2}>
           <Avatar source={{uri: profile.avatar_url}} alt={profile.login} marginRight={2} />
           <VStack>
-            <Text>{profile.login}</Text>
+            <Text>{profile.name}</Text>
           <Text>{profile.location}</Text>
           </VStack>
           

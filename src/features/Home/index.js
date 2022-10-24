@@ -8,14 +8,13 @@ const Home = () => {
 
   const users = [ 
     'burzumumbra',
-    'johndoe',
-    'johndoe',
-    'johndoe',
-    'johndoe',
+    'tannerlinsley',
+    'developit',
+    'wesbos',
+    'AdamSiekierski',
   ];
 
   const navigateTo = (user) => { 
-    console.log('user',user);
     navigation.navigate('Profile', {username: user});
   }
 
